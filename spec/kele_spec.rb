@@ -4,10 +4,6 @@ require "httparty"
 RSpec.describe Kele, type: :request do
   include HTTParty
   context '.kele' do
-    it "has a version number" do
-      expect(Kele::VERSION).not_to be nil
-    end
-
     describe '#initialize' do
       it "authenticates user" do
         client = Kele.new("jane@gmail.com", "abc123")

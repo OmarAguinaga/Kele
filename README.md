@@ -1,8 +1,14 @@
 # Kele
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/kele`. To experiment with that code, run `bin/console` for an interactive prompt.
+Kele A Ruby Gem API client that allows authorized users to access the Bloc API.
 
-TODO: Delete this and the text above, and describe your gem
+With this gem, if you are a Bloc student, you can...
+
+1. Get your user name and enrollment info
+2. Check your mentor availability
+3. Se your course roadmaps
+4. Submit assignments through the command line
+5. Read, send and receive messages
 
 ## Installation
 
@@ -14,15 +20,26 @@ gem 'kele'
 
 And then execute:
 
-    $ bundle
+```
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install kele
+```
+$ gem install kele
+```
 
-## Usage
+## Usage example
 
-TODO: Write usage instructions here
+Run irb or pry and require your gem in the library
+
+```
+$ irb
+>> require './lib/kele.rb'
+=> true
+>> Kele.new("jane@gmail.com", "abc123")
+```
 
 ## Development
 
@@ -32,7 +49,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/kele.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/omar.aguinaga94/kele>.
 
 ## License
 

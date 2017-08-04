@@ -1,5 +1,10 @@
 require "bundler/setup"
 require "kele"
+require 'httparty'
+require 'json'
+require 'dotenv'
+
+Dotenv.load
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

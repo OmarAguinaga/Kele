@@ -10,5 +10,6 @@
 
 # rspec failure tracking
 .rspec_status
+.env
 
-kele-0.1.0.gem
+kele-0.0.1.gem

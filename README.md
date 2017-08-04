@@ -1,4 +1,4 @@
-# Kele
+# Kele :beers:
 
 Kele A Ruby Gem API client that allows authorized users to access the Bloc API.
 

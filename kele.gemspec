@@ -33,6 +33,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_runtime_dependency 'httparty', '~> 0.13'
-  spec.add_runtime_dependency 'nyan-cat-formatter'
-  spec.add_runtime_dependency gem 'pry', '~> 0.10.4'
 end
